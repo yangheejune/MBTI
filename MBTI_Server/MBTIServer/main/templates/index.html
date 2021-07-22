@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕 양희준</h1>
+    <p>테스트 하고 있는 중이야</p>
+
+    {% for developer in developers %}
+        <p>{{ developer.name }} : {{ developer.count }}</p>
+    {% endfor %}
+</body>
+</html>
